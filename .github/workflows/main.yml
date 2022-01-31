@@ -28,4 +28,4 @@ jobs:
       - name: Running
         run: |
           ./wes.py --update
-          ./wes.py systeminfo.txt
+          ./wes.py systeminfo.txt -e
