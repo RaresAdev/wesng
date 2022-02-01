@@ -31,4 +31,4 @@ jobs:
       - name: Running
         run: |
           ./wes.py --update
-          ./wes.py systeminfo.txt -e
+          ./wes.py systeminfo.txt -e -i "Remote Code Execution"
