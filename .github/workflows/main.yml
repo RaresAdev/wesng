@@ -27,7 +27,7 @@ jobs:
       - name: Setup
         run: | 
           ./wes.py --update
-          ./wes.py --h
+          ./wes.py --help
       - name: Running
         run: |
           ./wes.py --update
